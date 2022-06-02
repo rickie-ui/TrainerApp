@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#3A3D4C" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Flickity -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css"
+    />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"
+    ></script>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../src/css/index.css" />
+    <title>index</title>
+  </head>
+  <body>
+    <svg class="home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#0099ff"
+        fill-opacity="1"
+        d="M0,128L40,112C80,96,160,64,240,74.7C320,85,400,139,480,176C560,213,640,235,720,250.7C800,267,880,277,960,277.3C1040,277,1120,267,1200,266.7C1280,267,1360,277,1400,282.7L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+      ></path>
+    </svg>
+    <div
+      class="gallery js-flickity"
+      data-flickity-options='{ "wrapAround": true, "autoPlay": true}'
+    >
+      <div class="gallery-cell">
+        <img src="../src/images/Smartwatch.gif" width="300" height="300" />
+      </div>
+      <div class="gallery-cell">
+        <img src="../src/images/fam.gif" width="300" height="300" />
+      </div>
+      <div class="gallery-cell">
+        <img src="../src/images/Smartwatch.gif" width="300" height="300" />
+      </div>
+    </div>
+
+    <a href="#" class="welcome">Get Started</a>
+  </body>
+</html>
